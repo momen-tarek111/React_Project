@@ -1,18 +1,37 @@
 import { Link, animateScroll as scroll } from 'react-scroll';
 import {useEffect, useState } from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Home from './Home';
 function Header(){
     const [activeLink, setActiveLink] = useState('Home');
     const [isScrolled, setIsScrolled] = useState(false);
+    const [offset, setOffset] = useState(0);
+    const [offset2, setOffset2] = useState(0);
+    // const [isMenuOpen, setIsMenuOpen] = useState(false);
     const handleSetActive = (linkName) => {
         setActiveLink(linkName);
+        const navBar = document.getElementById('headerNavbarDropdown');
+        if (navBar && navBar.classList.contains('show')) {
+            navBar.classList.remove('show');  // Manually close collapse
+        }
+        // setIsMenuOpen(false);
     };
     const scrollToTop = () => {
+        handleSetActive('Home'); 
         scroll.scrollToTop();
-        handleSetActive('Home'); // Set active link to Home when clicked
+        // setIsMenuOpen(false);
     };
     useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth >= 992) { // Example breakpoint for larger screens
+              setOffset(-270); // Offset for larger screens
+              setOffset2(-250)
+            } else {
+              setOffset(-400); // Offset for smaller screens
+              setOffset2(-350)
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        handleResize(); 
         const handleScroll = () => {
           if (window.scrollY > 100) {  // Change 100 to the scroll height you prefer
             setIsScrolled(true);
@@ -20,12 +39,11 @@ function Header(){
             setIsScrolled(false);
           }
         };
-    
         window.addEventListener('scroll', handleScroll);
-        
         // Cleanup the event listener on component unmount
         return () => {
           window.removeEventListener('scroll', handleScroll);
+          window.removeEventListener('resize', handleResize)
         };
       }, []);
     return(
@@ -57,12 +75,12 @@ function Header(){
                                         </Link> 
                                     </li>
                                     <li class="nav-item">
-                                        <Link className={activeLink === 'Skills' ? 'active nav-link' : 'nav-link'} onClick={() => handleSetActive('Skills')} to="Skills" smooth={true} duration={200} offset={-270}>
+                                        <Link className={activeLink === 'Skills' ? 'active nav-link' : 'nav-link'} onClick={() => handleSetActive('Skills')} to="Skills" smooth={true} duration={200} offset={offset}>
                                             Skills
                                         </Link> 
                                     </li>
                                     <li class="nav-item">
-                                        <Link className={activeLink === 'Products' ? 'active nav-link' : 'nav-link'} onClick={() => handleSetActive('Products')} to="Projects" smooth={true} duration={200} offset={-250}>
+                                        <Link className={activeLink === 'Products' ? 'active nav-link' : 'nav-link'} onClick={() => handleSetActive('Products')} to="Projects" smooth={true} duration={200} offset={offset2}>
                                             Projects
                                         </Link>
                                     </li>
