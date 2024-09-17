@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_Project/static/css/main.79cf146a.css",
-    "main.js": "/React_Project/static/js/main.90f34103.js",
+    "main.js": "/React_Project/static/js/main.e98e04ca.js",
     "static/js/453.159d8a3d.chunk.js": "/React_Project/static/js/453.159d8a3d.chunk.js",
     "static/media/fa-solid-900.ttf": "/React_Project/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/cute-astronaut-outer-space-with-alien-planets.png": "/React_Project/static/media/cute-astronaut-outer-space-with-alien-planets.e7099559f4e276161d22.png",
@@ -23,11 +23,11 @@
     "static/media/slick.woff": "/React_Project/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/React_Project/index.html",
     "main.79cf146a.css.map": "/React_Project/static/css/main.79cf146a.css.map",
-    "main.90f34103.js.map": "/React_Project/static/js/main.90f34103.js.map",
+    "main.e98e04ca.js.map": "/React_Project/static/js/main.e98e04ca.js.map",
     "453.159d8a3d.chunk.js.map": "/React_Project/static/js/453.159d8a3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79cf146a.css",
-    "static/js/main.90f34103.js"
+    "static/js/main.e98e04ca.js"
   ]
 }
