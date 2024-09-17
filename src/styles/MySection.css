@@ -2,7 +2,11 @@
     position: relative;
     padding-top: 400px;
 }
-
+@media screen and (max-width: 992px) {
+    .my_section{
+        padding-top: 250px;
+    }
+}
 
 .section-title-box p {
     font-weight: 400;
