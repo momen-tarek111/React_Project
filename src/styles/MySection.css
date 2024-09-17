@@ -2,11 +2,7 @@
     position: relative;
     padding-top: 400px;
 }
-@media screen and (max-width: 992px) {
-    .my_section{
-        padding-top: 250px;
-    }
-}
+
 
 .section-title-box p {
     font-weight: 400;
@@ -16,25 +12,12 @@
     color: #b9b9b9;
     margin-top: 16px;
 }
-
-@media screen and (max-width: 1600px) {
-    .section-title-box {
-        max-width: 700px;
-        margin-bottom: 45px;
-    }
-}
 .section-title-box {
     max-width: 750px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
-@media screen and (max-width: 1600px) {
-    .section-title-box h2, .section-side-title-box h2, .subscribe-box h2, .short-dec-title {
-        font-size: 40px;
-        line-height: 55px;
-        color: transparent;
-    }
-}
+
 .section-title-box h2 {
     font-weight: 600;
     font-size: 48px;
@@ -74,4 +57,21 @@
 }
 .link_active{
     background: linear-gradient(to right, #fc466b, #3f5efb);
+}
+
+@media screen and (max-width: 1600px) {
+    .section-title-box {
+        max-width: 700px;
+        margin-bottom: 45px;
+    }
+    .section-title-box h2, .section-side-title-box h2, .subscribe-box h2, .short-dec-title {
+        font-size: 40px;
+        line-height: 55px;
+        color: transparent;
+    }
+}
+@media screen and (max-width: 992px) {
+    .my_section{
+        padding-top: 250px;
+    }
 }
