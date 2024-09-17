@@ -1,0 +1,56 @@
+.contact_section{
+    padding-bottom: 100px !important;
+}
+.contact-section{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.contact-section.animate2{
+    opacity: 1;
+    transform: translateY(0);
+}
+.img-form{
+    height: 400px;
+}
+.img-form img{
+    height: 100%;
+    width: 100%;
+}
+.header_form h2{
+    color: white;
+    font-size: 50px;
+}
+.contact_section{
+    background: linear-gradient(90deg, #ac4480,#573aba);
+}
+.input-container input{
+    border-radius: 15px;
+    height: 60px;
+
+}
+.input-container input,.input-container textarea{
+    background: linear-gradient(#8751aa,#7250b8);
+    color: white !important;
+} 
+.input-container input::placeholder,.input-container textarea::placeholder{
+    color: white !important;
+} 
+.input-container input:active ,.input-container textarea:active{
+    outline: none;
+}
+.input-container input:focus,.input-container textarea:focus{
+    box-shadow: none;
+    border: white 1px solid;
+}
+.button-form button{
+    background-color: white !important;
+    color: black !important;
+    height: 50px;
+    width: 100px;
+}
+.button-form button:hover,.button-form button:active ,.button-form button:focus{
+    background-color: white;
+    color: black;
+}

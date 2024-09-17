@@ -1,0 +1,67 @@
+.Footer_logo p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.footer_dsc p{
+    color: rgba(195, 195, 195, 0.767);
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+}
+.Email_Section{
+    position: absolute;
+    /* padding-left: 100px !important;
+    padding-right: 100px !important; */
+    height: 230px;
+    top :-115px;
+    width: 80%;
+    left: 10%;
+    border-radius: 25px;
+    background-color: white;
+    z-index: 2;
+}
+.Email_Text p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Email_input{
+    border: solid 1px purple;
+    border-radius:30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.Email_input input{
+outline:  none;
+border: none;
+padding: 10px;
+ border-radius: 30px;
+ font-size: 16px;
+}
+.Email_input input:active,.Email_input input:focus{
+    border: none;
+    box-shadow: none;
+}
+.Email_input button{
+    background: linear-gradient(90deg, #800080, #ff00ff);
+    border: none; /* Remove default border */
+    color: white !important; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    margin-left: 5px; /* Space between input and button */
+    font-size: 16px;
+    font-weight: bolder;
+    height: 100%;
+    width: 220px !important;
+}
+
+.Footer_content{
+    padding-top: 180px;
+}

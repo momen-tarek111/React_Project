@@ -1,0 +1,5 @@
+.CircularProgressbar-text{
+    font-weight: bold;
+    text-anchor: middle; /* Center horizontally */
+    dominant-baseline: middle;
+ }
