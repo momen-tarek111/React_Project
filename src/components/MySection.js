@@ -19,13 +19,13 @@ function MySection(){
                                     </div>
                             </div>
                             <div className="tabs d-flex justify-content-center align-items-center">
-                                <NavLink className="tab-link link_1" to="React_Project"
+                                <NavLink className="tab-link link_1" to="/React_Project" end  
                                   style={({ isActive }) => ({background: isActive ? 'linear-gradient(to right, #fc466b, #3f5efb)' : '#1c1c1c',})}>
                                     1st Section</NavLink>
-                                <NavLink className="tab-link link_2" to="React_Project/ContentForm"
+                                <NavLink className="tab-link link_2" to="/React_Project/ContentForm"
                                  style={({ isActive }) => ({background: isActive ? 'linear-gradient(to right, #fc466b, #3f5efb)' : '#1c1c1c',})}>
                                     2nd Section</NavLink>
-                                <NavLink className="tab-link link_3" to="React_Project/Message"
+                                <NavLink className="tab-link link_3" to="/React_Project/Message"
                                  style={({ isActive }) => ({background: isActive ? 'linear-gradient(to right, #fc466b, #3f5efb)' : '#1c1c1c',})}>
                                     3rd Section</NavLink>
                                
@@ -34,8 +34,8 @@ function MySection(){
                     </div>
                     <Routes>
                         
-                        <Route path="React_Project" element={<Projects />} />
-                        <Route path="React_Project/Message" element={<Message />} />
+                        <Route  path="/React_Project" element={<Projects />} />
+                        <Route path="/React_Project/Message" element={<Message />} />
                     </Routes>
                     <Contact/>
                 </div>
