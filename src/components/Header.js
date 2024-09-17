@@ -26,8 +26,8 @@ function Header(){
               setOffset(-270); // Offset for larger screens
               setOffset2(-250)
             } else {
-              setOffset(-400); // Offset for smaller screens
-              setOffset2(-350)
+              setOffset(-500); // Offset for smaller screens
+              setOffset2(-400)
             }
         };
         window.addEventListener('resize', handleResize);
