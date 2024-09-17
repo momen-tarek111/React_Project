@@ -61,7 +61,7 @@
         top: 110vh;
     }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .skills_container{
         top: 60vh;
     }
