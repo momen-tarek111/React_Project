@@ -6,6 +6,8 @@ function Header(){
     const [isScrolled, setIsScrolled] = useState(false);
     const [offset, setOffset] = useState(0);
     const [offset2, setOffset2] = useState(0);
+    const [offset3, setOffset3] = useState(0);
+
     // const [isMenuOpen, setIsMenuOpen] = useState(false);
     const handleSetActive = (linkName) => {
         setActiveLink(linkName);
@@ -24,10 +26,12 @@ function Header(){
         const handleResize = () => {
             if (window.innerWidth >= 992) { // Example breakpoint for larger screens
               setOffset(-270); // Offset for larger screens
-              setOffset2(-250)
+              setOffset2(-450)
+              setOffset3(-100)
             } else {
               setOffset(-570); // Offset for smaller screens
-              setOffset2(-420)
+              setOffset2(-420);
+              setOffset3(-100)
             }
         };
         window.addEventListener('resize', handleResize);
@@ -93,7 +97,7 @@ function Header(){
                                             <li><a href="#"><i className="fab fa-instagram"></i></a></li>
                                         </ul>
                                     </div>
-                                    <a href="#" class="connect">Let's Connect</a>
+                                    <Link to="Contact" className="connect" onClick={() => handleSetActive('Contact')}  smooth={true} duration={200} offset={offset3}>Let's Connect</Link>
                                 </div>  
                             </div>
                         </div> 
