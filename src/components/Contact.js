@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/Contact.css'
 function Contact(){
     return(
-        <div className="contact_section py-5">
+        <div className="contact_section py-5 mt-5">
             <div  className="container">
                 <div className="row mb-5">
                     <div className="col-lg-6 col-12">

@@ -44,40 +44,40 @@ function Header(){
                                     LOGO
                                 </span>
                             </Link>
-                            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavbarDropdown" aria-controls="headerNavbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavbarDropdown">
                                 <span class="navbar-menu-icon">
                                     <i class="fas fa-bars"></i>
                                 </span>
                             </button>  
                             <div class="collapse navbar-collapse " id="headerNavbarDropdown">
-                            <ul class="navbar-nav me-auto">
-                                <li class="nav-item">
-                                    <Link className={activeLink === 'Home' ? 'active nav-link' : 'nav-link'}  onClick={scrollToTop}>
-                                        Home
-                                    </Link> 
-                                </li>
-                                <li class="nav-item">
-                                    <Link className={activeLink === 'Skills' ? 'active nav-link' : 'nav-link'} onClick={() => handleSetActive('Skills')} to="Skills" smooth={true} duration={200} offset={-270}>
-                                        Skills
-                                    </Link> 
-                                </li>
-                                <li class="nav-item">
-                                    <Link className={activeLink === 'Products' ? 'active nav-link' : 'nav-link'} onClick={() => handleSetActive('Products')} to="Projects" smooth={true} duration={200} offset={-250}>
-                                        Projects
-                                    </Link>
-                                </li>
-                            </ul>  
-                            <div class="header-buttons d-flex justify-content-between align-items-center">
-                                <div className="links-social-midea me-4">
-                                    <ul>
-                                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="connect">Let's Connect</a>
-                            </div>  
-                        </div>
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                        <Link className={activeLink === 'Home' ? 'active nav-link' : 'nav-link'}  onClick={scrollToTop}>
+                                            Home
+                                        </Link> 
+                                    </li>
+                                    <li class="nav-item">
+                                        <Link className={activeLink === 'Skills' ? 'active nav-link' : 'nav-link'} onClick={() => handleSetActive('Skills')} to="Skills" smooth={true} duration={200} offset={-270}>
+                                            Skills
+                                        </Link> 
+                                    </li>
+                                    <li class="nav-item">
+                                        <Link className={activeLink === 'Products' ? 'active nav-link' : 'nav-link'} onClick={() => handleSetActive('Products')} to="Projects" smooth={true} duration={200} offset={-250}>
+                                            Projects
+                                        </Link>
+                                    </li>
+                                </ul>  
+                                <div class="header-buttons d-flex justify-content-between align-items-center">
+                                    <div className="links-social-midea me-4">
+                                        <ul>
+                                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="connect">Let's Connect</a>
+                                </div>  
+                            </div>
                         </div> 
                     </nav>  
                </div> 

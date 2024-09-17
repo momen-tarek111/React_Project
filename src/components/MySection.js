@@ -33,7 +33,6 @@ function MySection(){
                         </div>
                     </div>
                     <Routes>
-                        
                         <Route  path="/React_Project/" element={<Projects />} />
                         <Route path="/React_Project/Message" element={<Message />} />
                     </Routes>

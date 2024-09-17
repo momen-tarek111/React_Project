@@ -1,5 +1,4 @@
 .Header{
-    background-color: black;
     padding-top: 18px;
     padding-bottom:18px;
     position:absolute;
@@ -109,4 +108,12 @@
 .header-scrolled{
     position: fixed;
     background-color: black;
+}
+@media screen and (max-width: 992px) {
+    .navbar-collapse{
+        background-color: black;
+    }
+    .Header{
+        background-color: black;
+    }
 }
