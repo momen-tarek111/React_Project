@@ -67,7 +67,7 @@ function Header(){
                                     </Link>
                                 </li>
                             </ul>  
-                            {/* <div class="header-buttons d-flex justify-content-between align-items-center">
+                            <div class="header-buttons d-flex justify-content-between align-items-center">
                                 <div className="links-social-midea me-4">
                                     <ul>
                                         <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
@@ -76,7 +76,7 @@ function Header(){
                                     </ul>
                                 </div>
                                 <a href="#" class="connect">Let's Connect</a>
-                            </div>   */}
+                            </div>  
                         </div>
                         </div> 
                     </nav>  
