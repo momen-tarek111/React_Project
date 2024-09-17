@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React_Project/static/css/main.79cf146a.css",
+    "main.js": "/React_Project/static/js/main.7f4a1bde.js",
+    "static/js/453.159d8a3d.chunk.js": "/React_Project/static/js/453.159d8a3d.chunk.js",
+    "static/media/fa-solid-900.ttf": "/React_Project/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/cute-astronaut-outer-space-with-alien-planets.png": "/React_Project/static/media/cute-astronaut-outer-space-with-alien-planets.e7099559f4e276161d22.png",
+    "static/media/fa-brands-400.ttf": "/React_Project/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/342229.jpg": "/React_Project/static/media/342229.f100044ff501c2d9eecb.jpg",
+    "static/media/5615681_2917233-1024x662.jpg": "/React_Project/static/media/5615681_2917233-1024x662.9bfff2786fcc90a17732.jpg",
+    "static/media/fa-solid-900.woff2": "/React_Project/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/React_Project/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/5361469_2815130-1024x639.jpg": "/React_Project/static/media/5361469_2815130-1024x639.09725964aba71ab4d588.jpg",
+    "static/media/fa-regular-400.ttf": "/React_Project/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/scability.png": "/React_Project/static/media/scability.a15f9db914546434dd73.png",
+    "static/media/cb2eb9152243301.Y3JvcCwxODkwLDE0NzksMTY4LDA.jpg": "/React_Project/static/media/cb2eb9152243301.Y3JvcCwxODkwLDE0NzksMTY4LDA.4956c567a65d15d5fc42.jpg",
+    "static/media/fa-regular-400.woff2": "/React_Project/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/React_Project/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React_Project/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/slick.svg": "/React_Project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/React_Project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/React_Project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/React_Project/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/React_Project/index.html",
+    "main.79cf146a.css.map": "/React_Project/static/css/main.79cf146a.css.map",
+    "main.7f4a1bde.js.map": "/React_Project/static/js/main.7f4a1bde.js.map",
+    "453.159d8a3d.chunk.js.map": "/React_Project/static/js/453.159d8a3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79cf146a.css",
+    "static/js/main.7f4a1bde.js"
+  ]
+}
